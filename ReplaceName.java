@@ -12,7 +12,6 @@ import com.bridgelabz.Utility.Utility;
  */
 public class ReplaceName
 {
-
 	public static void main(String args[])
 	{
 		Utility test=new Utility();
@@ -20,16 +19,11 @@ public class ReplaceName
 		String template="Hello <<UserName>>,How are you?";
 		if(name.length()>=3)
 		{
-			
-		String res=template.replace("<<UserName>>",name);
-		System.out.println(res);
-		
+			String res=template.replace("<<UserName>>",name);
+			System.out.println(res);
+			return;
 		}
-		else
-			System.out.println("invalid input");
-			
-		
-		
-		
+		System.out.println("Invalid name required min three characters");
+				
 	}
 }
