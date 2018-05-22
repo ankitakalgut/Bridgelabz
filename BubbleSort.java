@@ -15,7 +15,7 @@ public class BubbleSort
    public static void main(String args[])
    {	
 	    Utility test=new Utility();
-	    //for integers
+	
 
 	   int n=test.getInteger();
 	   /*
