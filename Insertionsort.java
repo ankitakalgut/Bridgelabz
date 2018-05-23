@@ -6,7 +6,7 @@ import com.bridgelabz.Utility.Utility;
  * @author Ankita Kalgutkar
  *
  * 18-May-2018
-purpose:Insertion sort for array of integers and strings
+purpose:Insertion sort for array of integers and strings.
  */
 public class Insertionsort
 {
