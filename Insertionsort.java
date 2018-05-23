@@ -32,6 +32,7 @@ public class Insertionsort
 	    {
 	        array[i]=test.getString();
 	    }
+	    //method
 	    Utility.insertion(array);
 	    System.out.println("Array after Insertion sort");
 	    for(int i=0; i < n; i++)
