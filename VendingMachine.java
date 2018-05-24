@@ -1,13 +1,13 @@
 package com.bridgelabz.Algorithmprograms;
 
 import com.bridgelabz.Utility.Utility;
-/**
+/***********************************************************************************************************
  * @author Ankita Kalgutkar
  *
  * 18-May-2018
-purpose:calculate the minimum number of Notes as well as the Notes to be returned by the Vending Machine as a 
+ purpose:calculate the minimum number of Notes as well as the Notes to be returned by the Vending Machine as a 
 Change.
- */
+ ***********************************************************************************************************/
 public class VendingMachine
 {
   	static int i=0;
