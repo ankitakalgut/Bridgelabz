@@ -1,34 +1,40 @@
 package com.bridgelabz.FunctionalProgram;
 
 import com.bridgelabz.Utility.Utility;
-
+/***********************************************************************************************
+ * 
+ * @author Ankita Kalgutkar
+ *
+ * 18-May-2018
+ * Purpose:Flip Coin and print percentage of Heads and Tails 
+ * 
+ ************************************************************************************************/
 public class FlipCoin
 {
-	static int heads=0;
-	static int tails=0;
-	public static double flip1(int flip)
-	{	System.out.println(Math.random());
-		if(Math.random()*flip>0.5)
+	static int head=0;
+	static int tail=0;
+	public static double flips(int flip)
+	{	
+		for(int i=0;i<flip;i++)
 		{
-			heads++;
-			System.out.println(heads);
+			if(Math.random()>0.5)
+			{
+				head++;
+			}
+			else
+			{
+				tail++;
+			}
 		}
-		else
-		{
-		tails++;
-		}
-		System.out.println(tails);
-		System.out.println("percentage of heads= "+(heads*100)/flip);
-		System.out.println("percentage of tails= "+(tails*100)/flip);
-		
-		 return 1.0;
+		System.out.println("percentage of heads= "+(head*100)/flip+"%");
+		System.out.println();
+		System.out.println("percentage of tails= "+(tail*100)/flip+"%");
+		return 1.0;		
 	}
-public static void main(String args[])
-{
-	Utility u=new Utility();
-	int flip=u.getInteger();
-	flip1(flip);
-	System.out.println(u);
-	
-}
+	 public static void main(String args[])
+	 {
+		Utility t=new Utility();
+		int flip=t.getInteger();
+		flips(flip);	
+	 }
 }

@@ -12,12 +12,11 @@ public class Array2D
 {	
 	public static void main(String[] args)
 	{
-		Utility test=new Utility();  System.out.println();
-		System.out.println("Integer Array");
-		    
+		Utility test=new Utility(); 
+		System.out.println();	    
 		System.out.println("Enter the number of rows: ");
 		int m = test.getInteger();
-		System.out.println("Enter the number of columns: ");
+		System.out.println("Enter the number of cols: ");
 		int n = test.getInteger(); 
 		int [][] a  =arrayInt(m,n);
 		double [][] b  =arrayDouble(m,n);
@@ -73,8 +72,6 @@ public class Array2D
 	public static void display(int[][]a,double[][]b,String[][]c,int m,int n)
 	{
 		PrintWriter pw=new PrintWriter(System.out,true);
-		
-		//display integers
 		System.out.println();
 		pw.println("2D ARRAY INTEGER");
 		
@@ -86,7 +83,7 @@ public class Array2D
 	        } 
 	     pw.println("\t");
 	    }
-		//display double
+		//display double array
 		System.out.println();
 		pw.println("2D ARRAY DOUBLE");
 			
@@ -98,7 +95,7 @@ public class Array2D
 		    } 
 		pw.println("\t");
 		}		 
-		//display boolean
+		//display boolean array
 		System.out.println();
 		pw.println("2D ARRAY BOOLEAN");
 				

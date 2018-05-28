@@ -12,15 +12,12 @@ public class Harmonic
 				for(double i=1;i<=n;i++)
 				{
 			
-					out=out+(1/i);
-				
+					out=out+(1/i);	
 				}
 			}
 			else
 			System.out.println("invalid value of n");
-
-			return out;
-			
+			return out;		
 		}
 		public static void main(String args[])
 		{

@@ -1,12 +1,13 @@
 package com.bridgelabz.FunctionalProgram;
 
 import com.bridgelabz.Utility.Utility;
-/**
+/*********************************************************************************
  * @author Ankita Kalgutkar
  *
  * 19-May-2018
-purpose: Recursive function to generate all permutations of a String
- */
+ * purpose: Recursive function to generate all permutations of a String
+ *
+ ******************************************************************************/
 class Permutation
 {
     private static void permutation(char[] ch, int currentIndex)

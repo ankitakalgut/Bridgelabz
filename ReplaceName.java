@@ -1,15 +1,13 @@
 package com.bridgelabz.FunctionalProgram;
 
 import com.bridgelabz.Utility.Utility;
-
-
-/**
+/*****************************************************************************
  * @author Ankita Kalgutkar
  *
  * 18-May-2018
  * purpose:To replace the username with the given name.
-
- */
+ * 
+ *****************************************************************************/
 public class ReplaceName
 {
 	public static void main(String args[])
@@ -20,10 +18,10 @@ public class ReplaceName
 		if(name.length()>=3)
 		{
 			String res=template.replace("<<UserName>>",name);
+			
 			System.out.println(res);
 			return;
 		}
-		System.out.println("Invalid name required min three characters");
-				
+		System.out.println("Invalid name required min three characters");			
 	}
 }

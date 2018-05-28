@@ -83,8 +83,7 @@ public class Tictacgame
 	            if(!isEmpty)
 	            {
 	                System.out.println("its a tie");
-	            }
-	              
+	            }  
 	        }
 	    }      
 	    public String toString()
@@ -116,7 +115,7 @@ public class Tictacgame
 	            }
 	            if(i<2)
 	            {
-	                s.append("\n-----------\n");
+	                s.append("-----------\n");
 	            }
 	        }
 	        return s.toString();

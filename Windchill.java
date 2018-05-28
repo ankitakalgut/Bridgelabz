@@ -3,9 +3,9 @@ package com.bridgelabz.FunctionalProgram;
  * @author Ankita Kalgutkar
  *
  * 18-May-2018
-purpose:To Given the temperature and the wind speed v (in miles per hour),the National   Weather   Service   defines   the   effective   temperature   (the   wind   chill)   to  
-be. 
- **/
+ *
+ *purpose:To Given the temperature and the wind speed v (in miles per hour),the National Weather Service defines the effective temperature (the wind chill) to  be. 
+ */
 public class Windchill 
 {
 		public static double windchill(int a,int b)
