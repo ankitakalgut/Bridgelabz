@@ -8,7 +8,7 @@ import com.bridgelabz.Utility.Utility;
  * 18-May-2018
  * purpose:Bubble sort technique for integers and strings.
 
- ************************************************************************************************/
+ *************************************************************************************************/
 public class BubbleSort
 {  
     static int n,i;
