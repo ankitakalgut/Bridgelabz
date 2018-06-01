@@ -3,11 +3,11 @@ package com.bridgelabz.FunctionalProgram;
 import java.io.PrintWriter;
 
 import com.bridgelabz.Utility.Utility;
-/**
+/*****************************************************************
  * @author Ankita Kalgutkar
  *purpose:
  * 18-May-2018
- */
+ *************************************************************/
 public class Array2D 
 {	
 	public static void main(String[] args)
